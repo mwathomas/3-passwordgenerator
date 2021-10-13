@@ -6,11 +6,11 @@ This project is a tool to generate a random password given a conditions set by t
 
 ## Installation
 
-Open the ****\_\_\_\_****and index.html files in VS Code.
+Open the \***\*\_\_\_\_\*\***and index.html files in VS Code.
 
 ## Usage
 
-`md ![Final Output](.assets/finalpage.jpeg) `
+![Final Output](assets/finalpage.jpeg) `
 
 ## Credits
 
