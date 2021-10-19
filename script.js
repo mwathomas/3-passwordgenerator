@@ -5,6 +5,13 @@ function writePassword() {
   var length = prompt(
     "Please enter the number of characters in your password (between 8 and 21)"
   );
+  if (length < 8 || length > 128);
+  {
+    alert("please enter a number greater than 8 and less than 128");
+    length = prompt(
+      "Please enter the number of characters in your password (between 8 and 21)"
+    );
+  }
   var lcinput = prompt("Do you want to include lower case letters? (y/n)");
   if (lcinput == y) {
     var lc = [
@@ -38,7 +45,6 @@ function writePassword() {
   } else {
     var lc = [];
   }
-
   var ucinput = prompt("Do you want to include upper case letters? (y/n)");
   if (ucinput == y) {
     var uc = [
