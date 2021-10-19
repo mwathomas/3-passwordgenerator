@@ -14,6 +14,8 @@ Click the generate password button. There will be several prompts that will defi
 
 ![Final Output](assets/3-finalpage.jpeg)
 
+[a link] (https://mwathomas.github.io/password-generator/)
+
 Next steps to be built out could be alerts if inputs don't match expectations, or an ability to accept multiple types of responses. Also, passwords could be more securely structured with a certain amount of characters, special characters, and numbers and avoiding common strings.
 
 ## Credits
