@@ -14,8 +14,7 @@ function writePassword() {
   if (lcinput !== y && lcinput !== n) {
     alert("Response must be y or n");
     writePassword();
-  }
-  if (lcinput == y) {
+  } else if (lcinput == y) {
     var lc = [
       "a",
       "b",
@@ -103,8 +102,7 @@ function writePassword() {
   if (ucinput !== y && ucinput !== n) {
     alert("Response must be y or n");
     writePassword();
-  }
-  if (ucinput == y) {
+  } else if (ucinput == y) {
     var uc = [
       "A",
       "B",
@@ -193,8 +191,7 @@ function writePassword() {
   if (numinput !== y && numinput !== n) {
     alert("Response must be y or n");
     writePassword();
-  }
-  if (numinput == y) {
+  } else if (numinput == y) {
     var num = [
       "0",
       "1",
@@ -335,8 +332,7 @@ function writePassword() {
   if (scinput !== y && scinput !== n) {
     alert("Response must be y or n");
     writePassword();
-  }
-  if (scinput == y) {
+  } else if (scinput == y) {
     var sc = [
       "!",
       "@",
@@ -472,6 +468,7 @@ function writePassword() {
   } else {
     var sc = [];
   }
+
   var chars = num.concat(sc, lc, uc);
   function generatePassword(arr, size) {
     var shuffled = arr.slice(0),
